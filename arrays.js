@@ -7,3 +7,6 @@ console.log(myArray);
 console.log(shifted);
 myArray.unshift(shifted);
 console.log(myArray); //adds element to beginning of array
+
+var stringedArray = JSON.stringify(myArray);
+console.log(stringedArray);
